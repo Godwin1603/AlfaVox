@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AlfaVox - Craft Your Timeless Portfolio. A portfolio business platform for students and young innovators.">
+    <title>AlfaVox | Timeless Portfolio Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="scroll-indicator"></div>
+    
+    <!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>AlfaVox</h1>
+        <p class="subheading"><em>Craft Your Timeless Portfolio</em></p>
+        <button id="launchBtn" class="wax-seal-btn">Create Your Portfolio</button>
+        <div class="scroll-prompt">
+            <p>Scroll down for more info</p>
+            <div class="scroll-icon">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="section-header">
+            <h2><span class="flourish-left"></span>About AlfaVox<span class="flourish-right"></span></h2>
+        </div>
+        <div class="content">
+            <p>AlfaVox is a portfolio business platform dedicated to students and young innovators. Combining classical elegance with cutting-edge CMS technology, AlfaVox enables you to build beautiful, customizable digital portfolios that stand the test of time.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="section-header">
+            <h2><span class="flourish-left"></span>Our Features<span class="flourish-right"></span></h2>
+        </div>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-pen-fancy"></i></div>
+                <h3>Customizable Portfolios</h3>
+                <p>Handcraft your unique digital story with our easy CMS.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-cogs"></i></div>
+                <h3>CMS-Based Backend</h3>
+                <p>Full control over your portfolio content.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                <h3>Responsive Design</h3>
+                <p>Perfect on any device.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-lock"></i></div>
+                <h3>Secure & Reliable</h3>
+                <p>Your data protected like precious manuscripts.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-user-graduate"></i></div>
+                <h3>Built for Students</h3>
+                <p>Designed to empower future leaders.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Statement -->
+    <section class="mission">
+        <div class="mission-quote">
+            <div class="quote-border"></div>
+            <p>"At AlfaVox, we believe every student's work deserves to be presented with honor and distinction. Our mission is to blend tradition with innovation, crafting a platform that helps you launch your career and build your legacy."</p>
+            <div class="quote-border"></div>
+        </div>
+    </section>
+
+    <!-- Launch Countdown -->
+    <section class="countdown">
+        <div class="countdown-content">
+            <h3>Prepare your quill — AlfaVox opens soon!</h3>
+            <div id="countdown-timer" class="timer">
+                <div><span id="days"></span>Days</div>
+                <div><span id="hours"></span>Hours</div>
+                <div><span id="minutes"></span>Minutes</div>
+                <div><span id="seconds"></span>Seconds</div>
+            </div>
+            <p>Join the launch list to be notified when we go live.</p>
+            <button class="wax-seal-btn notify-btn">Notify Me</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="section-header">
+            <h2><span class="flourish-left"></span>Contact Us<span class="flourish-right"></span></h2>
+        </div>
+        <div class="contact-info">
+            <p><i class="fas fa-user"></i> Godwin J</p>
+            <p><i class="fas fa-envelope"></i> alfagroups0305@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 6379656950</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>Copyright © 2025 AlfaVox</p>
+            <p class="small-text">Made with ❤️ for student startups</p>
+        </div>
+    </footer>
+
+    <!-- Launch Dialog (hidden by default) -->
+    <div id="launchDialog" class="dialog-container">
+        <div class="scroll-dialog">
+            <span class="close-dialog">&times;</span>
+            <h3>📜 AlfaVox Launching July 23</h3>
+            <p>Your Legacy Starts Here!</p>
+            <button class="wax-seal-btn dialog-btn">Create Your Portfolio</button>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
